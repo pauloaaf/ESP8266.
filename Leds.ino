@@ -104,7 +104,6 @@ void loop(void){
       Serial.println(ssid);
       Serial.print("IP address: ");
       Serial.println(WiFi.localIP());
-      ESP.restart();
     }
     server.handleClient();
   
