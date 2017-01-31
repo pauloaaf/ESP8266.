@@ -11,8 +11,8 @@
 MDNSResponder mdns;
 
 // Replace with your network credentials
-const char* ssid = "daf";
-const char* password = "paulo.dinis";
+const char* ssid = "ssid";
+const char* password = "password";
 IPAddress ip(192,168,1,41);
 IPAddress gateway(192,168,1,1);
 IPAddress subnet(255, 255, 255, 0);
